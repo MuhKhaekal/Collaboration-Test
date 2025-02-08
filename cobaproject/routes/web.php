@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return "halo ekal";
+    return "Hello World dan Dunia";
 });
