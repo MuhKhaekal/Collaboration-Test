@@ -3,9 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return "Hello World";
 });
 
 Route::get('/test', function () {
-    return "Hello World";
+    return "halo ekal";
 });
